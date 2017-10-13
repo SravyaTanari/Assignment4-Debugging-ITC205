@@ -1,3 +1,5 @@
+//Initial Commit by 11600546-Sravya Tanari for Gamae.java
+
 import java.util.Collections;
 import java.util.List;
 import java.util.ArrayList;
@@ -41,8 +43,8 @@ public class Game {
 		
 		int winnings = matches * bet;
 
-		if (matches > 0) {			
-			player.receiveWinnings(winnings);
+		if (matches > 0) {	                     		
+			player.receiveWinnings(winnings);  //Bug found in this line
 		}
         return winnings;		
 	}
