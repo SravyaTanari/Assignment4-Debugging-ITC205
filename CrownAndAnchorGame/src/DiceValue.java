@@ -1,3 +1,5 @@
+//Initial commit by 11600546 - Sravya Tanari for DiceValue.java
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -22,7 +24,7 @@ public enum DiceValue {
 	}
 	
 	public static DiceValue getRandom() {
-		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());
+		int random = RANDOM.nextInt(DiceValue.SPADE.ordinal());   //Bug found in this line, +1 should be added
 		return values()[random];
 	}
 	
