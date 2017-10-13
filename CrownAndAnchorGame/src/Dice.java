@@ -13,7 +13,7 @@ public class Dice {
 	}
 
 	public DiceValue roll() {             
-		return DiceValue.getRandom();   //Bug found in this line 
+		return DiceValue.getRandom();   //Bug found in this line  
 	}		
 	
 	public String toString() {
