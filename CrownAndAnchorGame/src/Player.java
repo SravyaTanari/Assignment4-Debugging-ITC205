@@ -1,3 +1,4 @@
+//Initial Commit by 11600546 - Sravya Tanari for Player.java
 
 public class Player {
 	private String name;
@@ -26,8 +27,8 @@ public class Player {
 		return (balance > limit);
 	}
 	
-	public boolean balanceExceedsLimitBy(int amount) {
-		return (balance - amount > limit);
+	public boolean balanceExceedsLimitBy(int amount) {   
+		return (balance - amount > limit);         // Bug found in this line, should add '=' next to 'amount >'
 	}
 	
 	public void takeBet(int bet) {
